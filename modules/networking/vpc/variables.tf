@@ -1,4 +1,5 @@
-variable "cidr"{
+variable "cidr" {
+
   type = string
   
 }
