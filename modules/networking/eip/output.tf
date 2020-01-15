@@ -4,12 +4,3 @@
    values = "${aws_eip.eip.id}"
    
  }
-
-
-
-
-
- 
- 
- 
- 
