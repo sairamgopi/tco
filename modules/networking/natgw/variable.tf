@@ -1,4 +1,3 @@
-
  variable "natgw_ip"{
 
    type : "string"
