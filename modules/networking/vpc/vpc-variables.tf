@@ -1,6 +1,7 @@
-variable "cidr"{
+variable "vpc_cidr"{
 
   type = string
+  
   
 }
 
