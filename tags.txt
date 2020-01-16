@@ -1,3 +1,0 @@
- tags = {
-    Name = "subnet-${join("",[for i in split("-",var.region): substr(i,0,1)])-$(join("",[element([for i in split("-",var.region):i],2),var.AZs[count.index]]))}-${var.routetype}-$(var.tiers[count.index])-$(var.env)"
-  }

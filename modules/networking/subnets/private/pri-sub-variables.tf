@@ -7,11 +7,11 @@ variable "route_type" {
 
   type = string
   
-  default = "public"
+  default = "private"
 
 }
 
-variable "public_subnets_cidr" {
+variable "private_subnets_cidr" {
 
   type = map
 
@@ -20,7 +20,7 @@ variable "public_subnets_cidr" {
 
 variable "vpc_id"{
 
-  type = string
+  type = string`
 
 }
 
