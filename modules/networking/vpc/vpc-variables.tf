@@ -1,6 +1,0 @@
-variable "cidr"{
-  type = string
-  
-}
-
-
