@@ -4,4 +4,14 @@ variable "vpc_cidr"{
   
 }
 
+variable "region" {
 
+  type = string
+  
+}
+
+variable "env" {
+
+  type = string
+
+}

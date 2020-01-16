@@ -1,1 +1,0 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"vpc","Source":"./modules/networking/vpc","Dir":"modules\\networking\\vpc"},{"Key":"public_subnets","Source":"./modules/networking/subnets/public","Dir":"modules\\networking\\subnets\\public"}]}
