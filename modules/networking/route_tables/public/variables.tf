@@ -1,32 +1,24 @@
 variable "vpc_id"{
-type = string
-}
-
-variable "gateway_id"{
-type = string
-}
-
-
-
-
+  type = "string"
+ 
+ }
+ 
 variable "AZs" {
-type = list(string)
+  type = "list(string)"
 deafult = ["a","b","c","d","e","f"]
 }
 
 variable "region" {
-type = string
+  type = "string"
 }
 
-variable "region-code"{
-type = string
-}
+
 
 variable "routetype"{
-type =  string
-default = "public"
+  type =  "string"
+default = "private"
 }
 
 variable "env"{
-type = string
+  type = "string"
 }
