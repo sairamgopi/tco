@@ -1,3 +1,3 @@
-output "public-subnets" {
-  value = "${aws_subnet.public_subnet[*].id}"
+output "private-subnets" {
+  value = "${aws_subnet.private_subnet[*].id}"
 }

@@ -18,7 +18,7 @@ variable "private_subnets_cidr" {
 }
 
 
-variable "vpc_id"{
+variable "vpc_id" {
 
   type = string
 
