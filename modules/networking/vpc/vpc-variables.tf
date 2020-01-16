@@ -1,4 +1,5 @@
 variable "cidr"{
+
   type = string
   
 }
