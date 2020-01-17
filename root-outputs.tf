@@ -1,5 +1,12 @@
-output "private_subnets" {
+output "pub-sub-ids" {
+
+  value = "${module.public_subnets.ids}"
+
+}
+
+
+output "sg_info" {
   
-  value = module.private_subnets.*.id
+  value = "${module.security_group.sg_info}"
 
 }
